@@ -1,8 +1,3 @@
-# OptimalRouteFinder
-
-Got it! Here is the updated `README.md` file, which includes instructions for using Gradle to build and run the application.
-
-```markdown
 # Delivery Route Optimizer
 
 This project aims to help a delivery executive determine the optimal route to deliver two orders in the shortest possible time. The solution involves calculating travel times between various locations using the Haversine formula and considering meal preparation times at restaurants.
@@ -14,7 +9,6 @@ This project aims to help a delivery executive determine the optimal route to de
 - [Usage](#usage)
 - [API Endpoint](#api-endpoint)
 - [Technologies Used](#technologies-used)
-- [Haversine Formula](#haversine-formula)
 
 ## Introduction
 
@@ -24,17 +18,10 @@ The application helps a delivery executive named Aman figure out the best way to
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/kunal164107/OptimalRouteFinder.git
-   cd demo
-   ```
-
-2. **Build and Run the Application:**
-
    Ensure you have Java and Gradle installed. Then, build and run the application:
 
    ```bash
-   ./gradlew build
+   git clone https://github.com/kunal164107/OptimalRouteFinder.git
    ./gradlew bootRun
    ```
 
@@ -73,7 +60,7 @@ curl --location 'http://localhost:8080/application/find-route' \
 }'
 ```
 
-This request will return the optimal route and the total time required to complete the deliveries.
+This request will return the optimal route to complete the deliveries.
 
 ## API Endpoint
 
@@ -119,8 +106,7 @@ This request will return the optimal route and the total time required to comple
 - **Body:**
   ```json
   {
-      "optimalRoute": "A -> R1 -> C1 -> R2 -> C2",
-      "totalTime": 2.5
+      "A -> R1 -> C1 -> R2 -> C2"
   }
   ```
 
@@ -129,25 +115,6 @@ This request will return the optimal route and the total time required to comple
 - Java
 - Spring Boot
 - Gradle
-
-## Haversine Formula
-
-The Haversine formula is used to calculate the great-circle distance between two points on the Earth given their latitude and longitude. It is essential for calculating travel times between the locations in this application.
-
-```java
-public static double haversine(double lat1, double lon1, double lat2, double lon2) {
-    final double EARTH_RADIUS = 6371; // Radius of the earth in km
-    double dLat = Math.toRadians(lat2 - lat1);
-    double dLon = Math.toRadians(lon2 - lon1);
-    double a = Math.sin(dLat / 2) * Math.sin(dLat / 2)
-            + Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2))
-            * Math.sin(dLon / 2) * Math.sin(dLon / 2);
-    double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return EARTH_RADIUS * c;
-}
-```
-
-By integrating this formula, we can calculate the travel time between any two geo-locations based on an average speed of 20 km/h.
 
 ## License
 
