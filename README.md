@@ -25,8 +25,8 @@ The application helps a delivery executive named Aman figure out the best way to
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/delivery-route-optimizer.git
-   cd delivery-route-optimizer
+   git clone https://github.com/kunal164107/OptimalRouteFinder.git
+   cd demo
    ```
 
 2. **Build and Run the Application:**
