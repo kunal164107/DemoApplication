@@ -1,24 +1,0 @@
-
-
-java:S1192."GDefine a constant instead of duplicating this literal "R2->C2" 4 times.(£ÇÌ©şÿÿÿÿ8Çó£ù1J$12ce4ed2-9cb4-46b3-a3e8-fed966ee6ae3
-
-java:S11927"GDefine a constant instead of duplicating this literal "C2->C1" 3 times.(¢ÉÎƒÿÿÿÿÿ8Èó£ù1J$42fd87d4-13de-4151-b8d5-e04445212afd
-
-java:S1192+"GDefine a constant instead of duplicating this literal "R1->R2" 3 times.(ù’÷êøÿÿÿÿ8Èó£ù1J$506a509d-0dd4-4cb0-9569-bc6a1d9c96e1
-‰
-java:S1192)"GDefine a constant instead of duplicating this literal "R1->C1" 4 times.(şºæ@8Èó£ù1J$c75ce875-c62b-42e6-92ef-3ae2b52aad35
-
-java:S11923"GDefine a constant instead of duplicating this literal "C1->C2" 3 times.(èŞŞÇÿÿÿÿÿ8Èó£ù1J$26f83837-cb19-479d-9d6d-a27b7e5b4e8d
-Š
-java:S11920"GDefine a constant instead of duplicating this literal "R2->R1" 3 times.(„ÅÂ™8Èó£ù1J$787d1a8b-b8b4-424a-ab14-288094433ea3
-
-java:S1192%"FDefine a constant instead of duplicating this literal "A->R1" 4 times.(Áş—÷øÿÿÿÿ8Èó£ù1J$bab685e6-a86c-4265-b0ec-39eef3bc459d
-
-java:S1192&"FDefine a constant instead of duplicating this literal "A->R2" 4 times.(»¬èàùÿÿÿÿ8œğíŒù1J$3ef78a4b-de2b-4e2a-9820-91f292f7c8a9
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â‰¿Çúÿÿÿÿ8ğíŒù1J$e121bb62-0abb-40c0-a2c3-662c290c49b7
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸†ÓÍøÿÿÿÿ8ğíŒù1J$22fd4377-91ac-4fec-9534-8666d261bb84
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÀÅü8ğíŒù1J$1c3ae163-24fd-4cfd-afcf-b9103cbd1f93
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±óşùÿÿÿÿ8Êó£ù1J$f1eb1a1f-4a73-42a3-b100-c4dccfe5eb0e
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğö®œ8ŸğíŒù1J$40c0ef14-c152-4454-b74e-968b0b792395
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8öÅìŒù1J$8dfd1955-a5ac-4537-bd7b-0ccb51c1b8c0

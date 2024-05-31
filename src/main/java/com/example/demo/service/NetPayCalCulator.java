@@ -1,5 +1,8 @@
 package com.example.demo.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class NetPayCalCulator {
 
     /*
@@ -19,6 +22,8 @@ public class NetPayCalCulator {
         5-10       - 10
         10-20      - 20
         20 +       - 30
+
+        Follow-up
 
         upto 5 lac - 0
         5-10       - 10K + 10% on extra i.e if salary is 7 lac then 10K + 10% on 2 lac

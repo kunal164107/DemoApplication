@@ -1,8 +1,8 @@
 package com.example.demo;
 
-import com.example.demo.service.DeliveryRouteOptimizer;
 import com.example.demo.service.NetPayCalCulator;
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,6 +18,6 @@ public class NetPayCalculatorTest {
         double inputSalary = 300000D;
         double expectedSalary = 300000D;
         double actualSalary = netPayCalCulator.calculateNetSalary(inputSalary);
-        Assert.assertEquals(expectedSalary, actualSalary, 0.1);
+        Assertions.assertEquals(expectedSalary, actualSalary, 0.1);
     }
 }
