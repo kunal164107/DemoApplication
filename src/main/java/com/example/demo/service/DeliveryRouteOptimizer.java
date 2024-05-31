@@ -27,5 +27,4 @@ public class DeliveryRouteOptimizer {
         return distance / AVERAGE_SPEED_KMH;
     }
 
-
 }
