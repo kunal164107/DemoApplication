@@ -19,7 +19,9 @@ LOG_PATH_IS_UNDEFINED/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea/
+*.idea/
+*.idea/compiler.xml
+*.idea/modules.xml
 *.iws
 *.iml
 *.ipr
