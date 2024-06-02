@@ -24,7 +24,6 @@ public class NetPayCalCulator {
         20 +       - 30
 
         Follow-up
-
         upto 5 lac - 0
         5-10       - 10K + 10% on extra i.e if salary is 7 lac then 10K + 10% on 2 lac
         10-20      - 20K + 20% on extra
