@@ -1,7 +1,9 @@
 package com.example.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TaxSlabFactory {
 
     private static final double TAX_SALB_BELOW_5_LAKH = 500000D;

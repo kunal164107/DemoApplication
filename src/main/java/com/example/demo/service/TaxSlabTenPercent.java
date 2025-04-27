@@ -1,5 +1,8 @@
 package com.example.demo.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TaxSlabTenPercent implements TaxSlab{
 
     public static final double TAX_PERCENT = 0.1;
