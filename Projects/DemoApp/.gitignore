@@ -1,0 +1,41 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Build output
+/out/
+/build/
+/target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Node (if you ever use it)
+node_modules/
+
+# VS Code (optional if you open it there)
+.vscode/
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
+
+
+README.md
+build.gradle
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
