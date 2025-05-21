@@ -1,4 +1,4 @@
 package com.example.demo.enums;
 
-public class DemoEnum {
+public enum DemoEnum {
 }
