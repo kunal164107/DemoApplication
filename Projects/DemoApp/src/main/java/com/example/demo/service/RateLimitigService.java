@@ -12,10 +12,14 @@ public class RateLimitigService {
 
     public boolean isAllowed(String identifier) {
         long now = System.currentTimeMillis();
-        long currentWindowStart = (now / RateLimitConfig.timeWindow) + RateLimitConfig.timeWindow;
+        System.out.println("now" + now);
+        long currentWindowStart = (now / RateLimitConfig.timeWindow) * RateLimitConfig.timeWindow;
+        System.out.println("currentWindowStart" + currentWindowStart);
 
         Window info = requestMap.getOrDefault(identifier, new Window(currentWindowStart, 0));
-        if (info.windowStart < currentWindowStart) {
+        System.out.println("info ws" + info.windowStart);
+        System.out.println("info count" + info.count);
+        if (info.windowStart == currentWindowStart) {
             if (info.count < RateLimitConfig.maxRequest) {
                 info.count++;
                 requestMap.put(identifier, info);
